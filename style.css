@@ -12,6 +12,12 @@ h1{
     color: whitesmoke;
     padding: 20px;
 }
+.cabecera img{
+    width: 100px;
+    
+}
 .cabecera h1{
     text-align: center;
+    float: right;
+
 }
