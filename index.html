@@ -5,32 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        :root{
+            --white: #FFFFFF;
+            --black: #000000;   
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --dark: #232830;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body{
+            margin: 0;
+            font-size: Quicksand, sans-serif;
+        }
+        footer {
+            width: 100%;
+            height: 50px;
+            position: absolute;
+            bottom: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            font-size: 13px;
+            background-color: var(--very-light-pink);
+            border-top: 1px solid var(--dark);
+        }
+        footer ul{
+            margin: 10px;
+            list-style: none;
+            display: flex;
+            padding-left: 0;            
+        }
+        footer .footer-left {
+            justify-self: left;
+        }
+        footer .footer-rigth {
+            justify-self: right;
+        }
+        footer ul li a {
+            margin: 10px;
+            color: var(--dark);
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <footer>
         <ul class="footer-left">
             <li>
-                <a href="">Publicidad</a>
-            </li>
-            <li>
-                <a href="">Negocios</a>
-            </li>
-            <li>
-                <a href="">Acerca de</a>
-            </li>
-            <li>
-                <a href="">Como funciona la busqueda</a>
+                <a href="">Unicauca</a>
             </li>
         </ul>
         <ul class="footer-rigth">
             <li>
-                <a href="">Privacidad</a>
+                <a href="">Grupo1</a>
             </li>
             <li>
-                <a href="">Condiciones</a>
+                <a href="">Grupo2</a>
             </li>
             <li>
-                <a href="">Preferencias</a>
+                <a href="">Grupo3</a>
             </li>
         </ul>
     </footer>
