@@ -16,7 +16,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-color:lightcyan;
+    background-color: aliceblue;
 }
 .iot{
     width: 64px;

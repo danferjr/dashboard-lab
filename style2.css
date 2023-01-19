@@ -7,7 +7,7 @@ body {
        padding: 8px;
        display: flex;
        justify-content:center;
-       background-color: aqua;
+       background-color: rgb(115, 174, 174);
 }
 .button {
     box-shadow: 0px 10px 14px -7px #276873;
