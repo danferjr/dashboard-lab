@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 2</title>
+    <style>
+   
+    body {
+         margin: 0;
+    } 
+    .contenedor{
+            color: chocolate;
+            border-top: 2px solid chocolate;
+            padding: 8px;
+            display: flex;
+            justify-content:center;
+            background-color: aqua;
+    }
+    .button {
+	     box-shadow: 0px 10px 14px -7px #276873;
+	    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	    background-color:#599bb3;
+	    border-radius:8px;
+	    display:inline-block;
+	    cursor:pointer;
+	    color:#ffffff;
+	    font-family:Arial;
+	    font-size:20px;
+	    font-weight:bold;
+	    padding:13px 32px;
+	    text-decoration:none;
+	    text-shadow:0px 1px 0px #3d768a;
+        margin-right: 60px;
+    }
+
+    .button:hover {
+	     background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	     background-color:#408c99;
+    }
+    .button:active {
+	    position:relative;
+	    top:1px;
+    }
+    .contenedor-grafica{
+        background-color: bisque;
+        height: 300px;
+        width: 600px;
+        margin : 20px 350px 20px 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .descripcion{
+        text-align: center;
+    }
+    </style>
+
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <a href="index.html" class="button">INICIO</a>
+            </div>
+            <section>
+                <div class="contenedor-grafica">
+                Grafica
+                </div>
+                <div class="descripcion">
+                    <h4>DESCRIPCION</h4>
+                    <p> Esta grafica muestra los datos obtenidos de los sensores  </p>
+                    <p> conectados a la ESP32 lo cuales estamos observando en pantalla. </p>
+
+                </div>
+            </section>
+    </section>  
+</body>
+</html>
