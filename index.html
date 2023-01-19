@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --white: #FFFFFF;
+            --black: #000000;   
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --dark: #232830;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body{
+            margin: 0;
+            font-size: Quicksand, sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            bottom: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            font-size: 13px;
+            border-top: 1px solid var(--dark);
+            background-color: var(--very-light-pink);
+        }
+        footer ul{
+            margin: 10px;
+            list-style: none;
+            display: flex;
+            padding-left: 0;  
+        }
+        .logo-uni{
+            width: 150px;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .footer-left p{
+            font-size: 10px;
+            text-align: center;
+        }
+        .footer-rigth{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        footer .footer-rigth {
+            justify-self: center;   
+        }
+        footer ul li a {
+            margin: 10px;
+            color: var(--dark);
+            text-decoration: none;
+        }
+        .list-1, .list-2, .list-3{
+            display: grid;
+            flex-direction: column;
+        }
+        .container-icons{
+            display: grid;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <ul>
+                    <li>
+                        <img src="./imagenes/logo_unicauca.png" alt="" class="logo-uni">
+                        <p>Copyright 2023©</p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer-rigth">
+                <div>
+                    <h3>Grupo1</h3>
+                    <ul class="list-1">
+                        <li><a href="">Juliana</a></li>
+                        <li><a href="">Biyeidi</a></li>
+                        <li><a href="">Franky Alemeza Samboni</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Grupo2</h3>
+                    <ul class="list-2">
+                        <li>
+                            <a href="">Camila</a>
+                        </li>
+                        <li><a href="">Juan Pablo</a></li>
+                        <li><a href="">David</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Grupo3</h3>
+                    <ul class="list-3">
+                        <li><a href="">Paulo Andres Guerrero Ramirez</a></li>
+                        <li><a href="">Daniel Fernando Morales Calambas</a></li>
+                    </ul>
+                </div>
+                <div class="container-icons">                
+                    <img src="./imagenes/icons8-facebook-30.png" alt="">
+                    <a href="https://www.instagram.com/danferjr/"><img src="./imagenes/icons8-instagram-24.png" alt=""></a>
+                    
+                    <img src="./imagenes/icons8-twitter-30.png" alt="">
+                    <img src="./imagenes/icons8-youtube-play-24.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
