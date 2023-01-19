@@ -17,7 +17,6 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color:lightcyan;
-        
 }
 .iot{
     width: 64px;
@@ -127,10 +126,12 @@ article h2{
     position:relative;
     top:1px;
 }
+.contenedor-segundo{
+    height: 50px;
+}
 footer{
     width: 100%;
     position: absolute;
-    bottom: 0;
 }
 footer ul{
     list-style: none;
